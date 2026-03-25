@@ -8,7 +8,6 @@ import {
   MessageSquare,
   Globe,
   Sparkles,
-  ArrowRight,
   CheckCircle2,
   ChevronDown,
 } from 'lucide-react'
