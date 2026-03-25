@@ -30,7 +30,7 @@ function useInView(threshold = 0.15) {
 
 const contactInfo = [
   { icon: Phone, title: '电话咨询', content: '400-XXX-XXXX', subContent: '周一至周五 9:00-18:00', gradient: 'from-blue-500 to-cyan-500', iconBg: 'bg-blue-50', iconColor: 'text-blue-600' },
-  { icon: Mail, title: '电子邮箱', content: 'contact@example.com', subContent: '24小时内回复', gradient: 'from-violet-500 to-purple-500', iconBg: 'bg-violet-50', iconColor: 'text-violet-600' },
+  { icon: Mail, title: '电子邮箱', content: '18571942761@163.com', subContent: '24小时内回复', gradient: 'from-violet-500 to-purple-500', iconBg: 'bg-violet-50', iconColor: 'text-violet-600' },
   { icon: MapPin, title: '公司地址', content: '武汉市青山区', subContent: '欢迎来访参观', gradient: 'from-emerald-500 to-teal-500', iconBg: 'bg-emerald-50', iconColor: 'text-emerald-600' },
   { icon: Clock, title: '工作时间', content: '周一至周五 9:00-18:00', subContent: '周末及法定节假日休息', gradient: 'from-amber-500 to-orange-500', iconBg: 'bg-amber-50', iconColor: 'text-amber-600' },
 ]
