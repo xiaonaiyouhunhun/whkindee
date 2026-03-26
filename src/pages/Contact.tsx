@@ -29,14 +29,14 @@ function useInView(threshold = 0.15) {
 }
 
 const contactInfo = [
-  { icon: Phone, title: '电话咨询', content: '400-XXX-XXXX', subContent: '周一至周五 9:00-18:00', gradient: 'from-blue-500 to-cyan-500', iconBg: 'bg-blue-50', iconColor: 'text-blue-600' },
+  { icon: Phone, title: '电话咨询', content: '18634645553', subContent: '周一至周五 9:00-18:00', gradient: 'from-blue-500 to-cyan-500', iconBg: 'bg-blue-50', iconColor: 'text-blue-600' },
   { icon: Mail, title: '电子邮箱', content: '18571942761@163.com', subContent: '24小时内回复', gradient: 'from-violet-500 to-purple-500', iconBg: 'bg-violet-50', iconColor: 'text-violet-600' },
   { icon: MapPin, title: '公司地址', content: '武汉市青山区', subContent: '欢迎来访参观', gradient: 'from-emerald-500 to-teal-500', iconBg: 'bg-emerald-50', iconColor: 'text-emerald-600' },
   { icon: Clock, title: '工作时间', content: '周一至周五 9:00-18:00', subContent: '周末及法定节假日休息', gradient: 'from-amber-500 to-orange-500', iconBg: 'bg-amber-50', iconColor: 'text-amber-600' },
 ]
 
 const faqItems = [
-  { question: '如何获取免费的咨询服务？', answer: '您可以通过页面上的表单提交咨询需求，或直接拨打我们的热线电话400-XXX-XXXX。我们的专业顾问将在24小时内与您取得联系，为您安排免费咨询。' },
+  { question: '如何获取免费的咨询服务？', answer: '您可以通过页面上的表单提交咨询需求，或直接拨打我们的热线电话18634645553。我们的专业顾问将在24小时内与您取得联系，为您安排免费咨询。' },
   { question: '服务的一般周期是多久？', answer: '根据项目的复杂程度不同，服务周期也有所差异。通常简单咨询服务可在1-2周内完成，定制化解决方案项目一般为1-3个月。我们会在初步沟通后为您提供详细的时间规划。' },
   { question: '是否支持远程协作？', answer: '支持。我们拥有完善的远程协作工具和流程，可以高效地进行线上沟通、方案评审和项目交付，确保远程合作的效果与线下一致。' },
   { question: '售后服务的保障措施有哪些？', answer: '我们提供完善的售后服务体系，包括项目验收后的质保期支持、定期回访、问题响应SLA保障等，确保您的业务持续稳定运行。' },
@@ -190,7 +190,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm font-medium text-primary">预约热线</p>
-                      <p className="text-xs text-muted-foreground mt-0.5">400-XXX-XXXX（周一至周五 9:00-18:00）</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">18634645553（周一至周五 9:00-18:00）</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -238,9 +238,9 @@ export default function Contact() {
           <p className="text-lg text-slate-300 leading-relaxed mb-10 max-w-xl mx-auto">
             我们随时准备为您解答疑问，提供最专业的建议和方案。
           </p>
-          <a href="tel:400XXXXXXX" className="group inline-flex items-center gap-2.5 px-10 py-4 bg-accent text-white font-semibold rounded-2xl hover:bg-accent-light transition-all duration-300 shadow-xl shadow-accent/25 hover:shadow-accent/40 hover:-translate-y-0.5 cursor-pointer text-lg">
+          <a href="tel:18634645553" className="group inline-flex items-center gap-2.5 px-10 py-4 bg-accent text-white font-semibold rounded-2xl hover:bg-accent-light transition-all duration-300 shadow-xl shadow-accent/25 hover:shadow-accent/40 hover:-translate-y-0.5 cursor-pointer text-lg">
             <Phone className="w-5 h-5" />
-            400-XXX-XXXX
+            18634645553
           </a>
         </div>
       </section>
